@@ -1,0 +1,54 @@
+html{
+    background-color: orange;
+padding: 10px;
+}
+body{
+    background-color: #EDED72;
+padding: 10px;
+margin: 0;
+}
+/* flexbox */
+.parant{
+    background-color: #5640C8;
+    margin: 10px;
+    padding: 30px;
+    height: 500px;
+    display:flex;
+    flex-flow:row wrap;
+    align-items:center;
+    justify-content:center;
+    align-content: center;
+
+}
+.div1{
+    background-color: pink;
+    margin: 5px;
+}
+.div2{
+    background-color: pink;
+    margin: 5px;
+    width: 150px;
+    font-size: 30px;
+}
+.div3{
+    background-color:pink;
+    margin: 5px;
+    height: 150px;
+}
+.div4{
+    background-color: pink;
+    margin: 5px;
+    width: 150px;
+    height: 150px;
+
+}
+.div5{
+    background-color:pink;
+    margin: 5px;
+ width: 200px;
+}
+.div6{
+    background-color: pink;
+    margin: 5px;
+    width: 200px;
+}

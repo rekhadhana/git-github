@@ -1,2 +1,97 @@
-hi i m here 
-show me modfication
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #main {
+            width: 100vw;
+            height: 100vh;
+            border: 1px solid red;
+        }
+
+        #main1 {
+            margin-left: auto;
+            margin-right: auto;
+            /* margin-top:auto; */
+            /* margin-bottom: auto; */
+            width: 60%;
+            height: 650px;
+            border: 1px solid blue;
+            padding: 20px;
+            background-color: lightgray;
+        }
+
+        #main2 {
+            margin: 150px auto;
+            padding: 10px;
+            height: 300px;
+            background-color: #fff;
+
+            /* width:500px; */
+            border: 1px solid green;
+        }
+    </style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
+
+</head>
+
+<body>
+    <div class="bg-dark border" id="main">
+        <div id="main1" class="d-flex justify-content-lg-center">
+            <div id="main2">
+                <form>
+                    <div class="form-row">
+                        <div class="col-lg-6">
+                            <label for="fname" class="text-muted">First name</label>
+                            <input type="text" class="form-control border border-dark">
+                        </div>
+                        <div class="col-lg-6">
+                            <label for="lname" class="text-muted">Last name</label>
+                            <input type="text" class="form-control border border-dark">
+
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="col-lg-6">
+                            <label for="dob">Date Of Bith</label>
+                            <input type="date" class="form-control border border-dark">
+                        </div>
+                        <div class="col-lg-6">
+                            <label for="gender">Gender</label>
+                            <select name="gender" id="gender" class="form-control">
+                                 <option value="gender" class="text-muted border border-dark" selected>select gender</option>
+                                 <option value="">male</option>
+                                 <option value="">female</option>
+                             </select>
+                        </div>
+                    </div>
+                    <div class="row mx-md-n5">
+                            <div class="col px-md-5">
+                                    <div class="p-3 border bg-light">
+                                        <button class="btn btn-primary">Submit</button>
+                                    </div>
+                                </div>
+                        <div class="col px-md-5">
+                            <div class="p-3 border bg-light">
+                                <button class="btn btn-primary">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
